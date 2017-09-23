@@ -1,0 +1,21 @@
+// rems - better support for accessibility
+
+// 1rem = 16px
+// 16px base * .625 = 10 :
+// 2.2 rem = 22 px
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: $dark-blue;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: $m-size;
+}
+
+button {
+  cursor: pointer;
+}
+.button:default {
+  cursor: default
+}
